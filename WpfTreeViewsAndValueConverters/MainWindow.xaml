@@ -9,7 +9,6 @@
         Title="TreeView and ValueConverters" Height="450" Width="800">
     
     <!-- TreeView -->
-    <StackPanel>        
         <TreeView x:Name="FolderView">
             <TreeView.Resources>
                 <Style TargetType="{x:Type TreeViewItem}">
@@ -32,6 +31,5 @@
                 </Style>
             </TreeView.Resources>
         </TreeView>
-    </StackPanel>
-    
+
 </Window>
